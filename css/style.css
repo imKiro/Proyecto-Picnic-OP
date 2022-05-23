@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Tomato';
+    src: url(../fonts/Tomato\ Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-header {
+    background-image: none;
+}
+
+.bg{
+    background-image: linear-gradient(to right, #59beb8, #57c0b6, #57c3b3, #57c5b0, #59c7ac);
+}
+
+.nav-link{
+    font-size: 23px;
+    font-weight: 450;
+    color: #f0eeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    color: #f0eeee;
+    font-size: 30px !important;
+    font-family: 'Tomato', cursive;
+    font-weight: bold;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #dbd5d5;
+}
+
+.navbar-toggler{
+    color: #f0eeee; 
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.header-banner {
+  width: 100%;
+  padding-bottom: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: rgb(46, 39, 39);
+  background-image: url(../images/header.jpg);
+  background-blend-mode: overlay;
+  background-position: center center;
+
+}
+
+.aa{
+    padding-top: 250px;
+}
+
+.banner-btn {
+  font-size: 25px;
+  display: inline-block;
+  border: 0.5px solid #444242;
+  margin: 10px 10px;
+  padding: 5px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 30px; 
+  color: #fff;
+}
+
+.bg:hover {
+  background-color: rgb(179, 179, 179);
+  color: #000000;
+}
+
+.bg {
+    font-family: 'Roboto', sans-serif;
+    background-color: #262626;
+}
+
+.bg2{
+    background-color: #262626;
+}
+
+.header-text{
+    color: white;
+}
+
+.h-h1{
+    font-family: 'Tomato', sans-serif;
+    font-size: 35px;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+
+.h-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.footer-text{
+    font-size: 20px;
+}
+
+.footer-icon{
+    font-size: 25px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.text-int{
+    font-size: 25px;
+}
+
+.icon-int{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: linear-gradient(to right, #59beb8, #57c0b6, #57c3b3, #57c5b0, #59c7ac);
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #33968f;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    
+    width: 30%;
+}
+
+.icon-bn{
+    margin-top: 20px !important;
+    font-size: 150px;
+}
+
+h4{ 
+    margin-top: 40px !important;  
+}
+
+.hotel{
+    font-size: 40px;
+}
+
+.promo{
+    color: #33968f;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main {
+    width: 100%; 
+    padding:0;
+}
+
+.content-asset p {
+    margin:0 auto;
+}
+
+.breadcrumb {
+    display:none;
+}
+
+.margin-top-10 {
+    padding-top:10px;
+}
+
+.margin-bot-10 {
+    padding-bottom:10px;
+}
+
+.sc {
+    color: #3b8595;
+}
+
+.ny {
+    color: #3d3c3a;
+}
+
+.atw {
+    color: #c48660;
+}
+
+#parallax-world-of-ugg .title {
+    background: white; 
+    padding: 60px; 
+    margin:0 auto; 
+    text-align:center;
+}
+
+#parallax-world-of-ugg .title h1 {
+    font-size:35px; 
+    letter-spacing:3px;
+}
+
+#parallax-world-of-ugg .block {
+    background: white; 
+    padding: 60px; 
+    width:820px; 
+    margin:0 auto; 
+    text-align:justify;
+}
+
+#parallax-world-of-ugg .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+}
+
+#parallax-world-of-ugg .section-overlay-mask {
+    position: absolute; top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    opacity: 0.70;
+}
+
+#parallax-world-of-ugg .parallax-one {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://wallpaper.dog/large/10760541.jpg?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+#parallax-world-of-ugg .parallax-two {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://miro.medium.com/max/1400/1*hDFU2ErqeX-ivRxCiiNKXg.jpeg?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+#parallax-world-of-ugg .parallax-three {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://www.telegraph.co.uk/content/dam/news/2020/07/20/TELEMMGLPICT000235390114_trans_NvBQzQNjv4BqF17Eb5QVe68VMN2NfamVAHLAVFmfq_yKsL9A0Mk8sQo.jpeg?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+#parallax-world-of-ugg .line-break {
+    border-bottom:1px solid black; 
+    width: 150px; 
+    margin:0 auto;
+}
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
